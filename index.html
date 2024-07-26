@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="hero-header" id="Home">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid  fa-a"></i>
+                    <div class="logo-text">ABINAYA</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Internship">Internship</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="./img.jpg" alt="Profilepic">
+                </div>
+                <div class="hero-text">
+                    <h3>Hai I am <span class="">ABINAYA K</span></h3>
+                    <h1>Web Developer</h1>
+                    <p>My expertise is to create and design the website with a strong ability to create visually appealing and user-friendly websites as well as I would like to enhance my technical knowledge about new and emerging trends in the digital sector.  
+
+                    </p>
+                    <div class="btn-group">
+                        <a href="Resume K.pdf"class="btn" download="Resume.K.pdf">Download CV</a>
+                        
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/abinaya-k-436694224"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/teddy__abi?igsh=aHZhczZpa295MWsw"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Abi2205"><i class="fa-brands fa-github"></i></a>
+                        <a href="abinayakarthi2205@gmail.com"><i class="fa-brands fa-mail"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="About_section" id="Internship">
+    <div id="Internships">
+        <h2>Internship </h2>
+        <div class="Internships">
+            <div class="Internships">
+            <h2>01</h2>
+            <h3>Web Development</h3>
+            <p>During my internship ,I learnt front-end frameworks, back-end frameworks, programming languages as well as design patterns and also completed a small web design portal.
+
+            </p>
+        <div class="icons">
+            <i class="fa-solid fa-globe"></i>
+        </div>
+           </div>
+         <div class="Internships">
+            <h2>02</h2>
+            <h3>SAP ABAP</h3>
+            <p>In SAP ABAP Intern, I have gained a knowledge on SAP like basics of ABAP such as
+                Editors,dictonaries and test tools .Also gone through the transaction codes .
+
+            </p>
+        <div class="icons">
+            <i class="fas fa-laptop"></i>
+        </div>
+    </div>
+        
+</div>
+</div>
+<div class="About_section" id="project">
+    <div id="Project">
+        <h2>Projects</h2>
+        <div class="Projects">
+            <div class="Projects">
+            <h2>01</h2>
+            <h3>Smart wearables for school children</h3>
+            <p>The wearables will incorporate features such as GPS tracking for location monitoring.By leveraging wearable technology, this project helps to find the live location of school children and GSM helps to send message to Parents. 
+            </p>
+       
+        </div>
+           </div>
+         <div class="Projects">
+            <div class="Projects">
+              <h2>02</h2>
+            <h3>Prediction of stroke</h3>
+            <p>This project focuses on machine learning algorithms to predict the likelihood of stroke occurrence in individuals. By analyzing various risk factors such as medical history, lifestyle, the model aims to identify individuals at higher risk of experiencing a stroke. thereby reducing the incidence and severity of strokes.
+
+
+            </p>
+        </div>
+</div>
+</div>
+<section id="contact">
+    <div class="contact-section">
+        <div class="form">
+            <form action="#home">
+                <input type="text" name="name" placeholder="Enter Your Name"required=""><br>
+                <input type="gmail" name="gmail" placeholder="Enter Your MailId"required=""><br>
+                <input type="phonenumber" name="pno" placeholder="Enter Your Phone No."required=""><br>
+                <textarea name="msg" id="msg" rows="5" cols="22" placeholder="Enter your message"></textarea>
+
+                <button class="form_btn">Submit</button>
+            </form>
+        </div>
+        <div class="contact-desc">
+            <h1>Contact <span>Me!</span></h1>
+            <div class="font">
+                <a href="https://www.linkedin.com/in/abinaya-k-436694224"><i class="fa-brands fa-linkedin"></i>
+                <a href="https://github.com/Abi2205"><i class="fa-brands fa-github"></i>
+                
+                <a href="tel:9965217429"><i class="fas fa-phone"></i></a>
+            </div>
+            <p><i class="fas fa-phone"></i>9965217429</p>
+            <p><i class="fas fa-envelope"></i>abinayakarthi2205@gmail.com</p></a>
+            <button>Hire me</button>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <h3>Be Positive!</h3>
+</div>
+
+
+
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+</body>
+</html>
